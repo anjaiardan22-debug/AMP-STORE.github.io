@@ -1,10 +1,9 @@
 const products = [
-    { id: 1, name: "BULLS", price: 75000, img: "buls.JPG" },
-    { id: 2, name: "SAN ANDREAS", price: 75000, img: "san andreas.jpg" },
-    { id: 3, name: "MSBREW", price: 75000, img: "msbrew.jpg" },
-    { id: 4, name: "OASIS", price: 75000, img: "oasis.jpg" },
-    { id: 5, name: "ACAB", price: 75000, img: "acab.jpg" },
-    { id: 6, name: "NIRVANA", price: 75000, img: "nirvana.jpg" },
+    { id: 1, name: "SAN ANDREAS", price: 75000, img: "san andreas.jpg" },
+    { id: 2, name: "MSBREW", price: 75000, img: "msbrew.jpg" },
+    { id: 3, name: "OASIS", price: 75000, img: "oasis.jpg" },
+    { id: 4, name: "ACAB", price: 75000, img: "acab.jpg" },
+    { id: 5, name: "NIRVANA", price: 75000, img: "nirvana.jpg" },
 ];
 
 let cart = [];
@@ -106,3 +105,4 @@ document.getElementById("payment-form").addEventListener("submit", e => {
         paymentSuccess.textContent = "✅ Pembayaran Berhasil! Terima kasih telah berbelanja 🍪";
     }, 500);
 });
+
