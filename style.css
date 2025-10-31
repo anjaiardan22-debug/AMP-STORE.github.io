@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff8f2;
+    color: #333;
+}
+
+header {
+    background-color: #0e1080;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0 5px;
+}
+
+button {
+    background-color: #061466;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9966;
+}
+
+.cart-section, .payment-section {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.success-msg {
+    color: green;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #371daa;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-control button {
+    background-color: #ffb347;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.quantity-control button:hover {
+    background-color: #ffa726;
+}
+header {
+    position: relative;
+    background-color: #ffb347;
+    padding: 4px 15px;  /* Padding lebih kecil */
+    color: #fff;
+    text-align: center;
+    line-height: 1;     /* Kurangi jarak baris */
+    height: auto;       /* Pastikan height otomatis */
+}
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.logo {
+    width: 80px;       /* Lebih kecil */
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px; /* Lebih rapat ke teks */
+}
+
+h1 {
+    font-size: 1.6rem;   /* Ukuran font lebih kecil */
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+.cart-icon {
+    position: absolute;
+    top: 8px;           /* Sedikit turun supaya rapat */
+    right: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
